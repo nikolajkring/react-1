@@ -23,7 +23,7 @@ function App() {
     await deleteDoc(roomDoc);
   }
 
-  
+
 
   useEffect(() => {
     const getRooms = async () => {
@@ -39,9 +39,29 @@ function App() {
   return <div className='App'>{rooms.map((room) => {
     return (
       <div>
+
+        {/* kalender */}
+
+
+        {/* mine bookinger */}
+        <h2>Mine bookninger</h2>
+
+        {/* andres bookinger */}
+        <h2>Andres bookninger</h2>
+
+        {/* ny booking knap */}
+        <button class="ny-booking-knap">Ny Booking</button>
+        {/* ny hjem knap */}
+        <button class='hjem-knap'>Hjem</button>
+        {/* copy right */}
+        <p>copyright © Bookin</p>
+
+
+
+
         <h1>{room.number}</h1>
         <h1>{room.size}
-        {<img src={size} alt="size" height="25" />}
+          {<img src={size} alt="size" height="25" />}
         </h1>
         {rooms[0].light && <img src={light} alt="light" height="25" />}
         {rooms[0].projector && <img src={projector} alt="projector" height="25" />}
