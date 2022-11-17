@@ -39,7 +39,6 @@ function App() {
   return <div className='App'>{rooms.map((room) => {
     return (
       <div>
-
         {/* kalender */}
 
 
@@ -50,11 +49,12 @@ function App() {
         <h2>Andres bookninger</h2>
 
         {/* ny booking knap */}
-        <button class="ny-booking-knap">Ny Booking</button>
+        <button class="ny-booking-knap">Ny Booking</button> 
         {/* ny hjem knap */}
-        <button class='hjem-knap'>Hjem</button>
+        <button class="hjem-knap">Hjem</button> 
         {/* copy right */}
         <p>copyright © Bookin</p>
+
 
 
 

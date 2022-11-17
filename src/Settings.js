@@ -3,16 +3,20 @@ import avatar from "./img/avatar.jpg";
 import house from "./img/house.jpg";
 
 
+
+
 function settings() {
     return (
         <>
 
             {/* ACCOUNT */}
 
-            <div class="avatar grid-container-3">
+            <div class="grid-container-3">
                 <div class="grid-item">
+
                     <img src={avatar} alt="avatar" height="50" />
                     <h3>Jeppe Lorentzen</h3>
+
                 </div>
 
                 <div class="grid-item">

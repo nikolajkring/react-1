@@ -1,13 +1,17 @@
-.grid-container-3 {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
 .grid-container-2 {
   display: grid;
   grid-template-columns: auto auto;
 
 }
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  width: 75%;
+
+}
+
 
 .grid-item {
   text-align: left;
@@ -40,18 +44,12 @@
   border-radius: 15px;
 }
 
-.avatar {
-  text-align: left;
-  margin: auto;
-  width: 50%;
-}
-
 
 .hjem-knap {
   color: #2c2c2c;
   background-color: #ffffff;
   border-radius: 10px;
-  width: 100%;
+  width: 70%;
   height: 50px;
   text-transform: uppercase;
   margin: 0 auto;
@@ -63,14 +61,6 @@
 .center {
   text-align: center;
 }
-
-
-
-
-
-
-
-
 
 
 
