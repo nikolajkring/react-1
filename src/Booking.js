@@ -15,16 +15,16 @@ import { Spinner } from "./Spinner"
 
 
 export function Booking() {
-    console.trace(Booking);
+    // console.trace(Booking);
     console.log("kørerBooking")
     const [rooms, setRooms] = useState([]);
     const roomsColRef = collection(db, "lokaler")
-    // const [reload, doReload] = useState("0");
+    const [reload, doReload] = useState("0");
 
     const deleteBooking = async (id) => {
         const roomDoc = doc(db, "lokaler", id);
         await deleteDoc(roomDoc);
-        // doReload("1");
+        doReload("1");
         console.log("test69")
 
     }
@@ -68,10 +68,10 @@ export function Booking() {
             }
             setIsLoading(false);
         }
-        // getRooms();
-        // doReload("0");
+        getRooms();
+        doReload("0");
         console.log("test4")
-    }, [deleteBooking]
+    }, [reload]
     );
 
 
@@ -148,7 +148,7 @@ export function Booking() {
             <div className='bg-color-white left-space'>
                 <h2 className='bg-color-white'>Mine reservationer</h2>
 
-                {/* {isLoading && <Spinner />} */}
+                {isLoading && <Spinner />}
                 {isError && <p> How der skete en fejl</p>}
                 <div className='bg-color-white'>{rooms.map((room) => {
                     return (
@@ -165,7 +165,7 @@ export function Booking() {
       {rooms[0].furniture && <img src={furniture} alt="furniture" height="25" />} */}
                             <button className='delete-knap' onClick={() => { deleteBooking(room.id) }}>Delete</button>
 
-                            {/* <button className='booked-knap' onClick={() => { isBooked(room.id) }}>Book</button> */}
+
                         </div>
                     );
                 })}</div>
