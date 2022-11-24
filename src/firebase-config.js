@@ -3,13 +3,12 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDjOCi3sUEbf_OboMXwLoXscOeAtBahSDw",
-    authDomain: "booking-c7b73.firebaseapp.com",
-    projectId: "booking-c7b73",
-    storageBucket: "booking-c7b73.appspot.com",
-    messagingSenderId: "109217968557",
-    appId: "1:109217968557:web:ba8db96dcce9d2ff37b124",
-    measurementId: "G-XZ24B508B4"
+    apiKey: "AIzaSyCj9CzpFYApwS384Ze7EOQ8rpKA6G7prOY",
+    authDomain: "bookin-d9e9c.firebaseapp.com",
+    projectId: "bookin-d9e9c",
+    storageBucket: "bookin-d9e9c.appspot.com",
+    messagingSenderId: "307297920105",
+    appId: "1:307297920105:web:136c0042af1bf89779aef8"
 };
 
 

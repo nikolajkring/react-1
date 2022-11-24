@@ -1,0 +1,16 @@
+.nybooking-div {
+    text-align: center;
+}
+
+select,
+input {
+    color: #2c2c2c;
+    border-radius: 10px;
+    width: 20%;
+    height: 20px;
+}
+
+.pad-no {
+    padding: 0;
+    margin: 0;
+}

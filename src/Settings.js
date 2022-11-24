@@ -1,97 +1,76 @@
-import './Settings.css';
 import avatar from "./img/avatar.jpg";
 import house from "./img/house.jpg";
+import './Settings.css';
+import { HjemKnap } from "./HjemKnap";
 
-
-
-
-function settings() {
+export function Settings() {
     return (
         <>
 
             {/* ACCOUNT */}
 
-            <div class="grid-container-3">
-                <div class="grid-item">
 
-                    <img src={avatar} alt="avatar" height="50" />
-                    <h3>Jeppe Lorentzen</h3>
+            {/* Wrapper-2 */}
 
+
+            <div className="grid-container-2 bg-color-white">
+                {/* Sprog */}
+                <div className="grid-item-settings bg-color-white">
+                    <h2 className="bg-color-white">Sprog</h2>
+                    <h3 className="bg-color-white">Dansk / Engelsk</h3>
                 </div>
 
-                <div class="grid-item">
-                    <img src={house} alt="house logo" height="125px" />
+                <label className="switch grid-item-settings bg-color-white">
+                    <input className="bg-color-white" type="checkbox" />
+                    <span className="slider round labels"></span>
+                </label>
+
+                {/* Applikationlyde */}
+                <div className="grid-item-settings bg-color-white">
+                    <h2 className="bg-color-white">Applikationlyde</h2>
+                    <h3 className="bg-color-white">xxx</h3>
                 </div>
 
-                <div class="grid-item">
-                    <h1>Indstillinger</h1>
+                <label className="switch grid-item-settings bg-color-white">
+                    <input  type="checkbox" />
+                    <span className="slider round labels"></span>
+                </label>
+
+                {/* E-mail-kvittering */}
+                <div className="grid-item-settings bg-color-white">
+                    <h2 className="bg-color-white">E-mail-kvittering</h2>
+                    <h3 className="bg-color-white">xxx</h3>
                 </div>
 
+                <label className="switch grid-item-settings bg-color-white">
+                    <input type="checkbox" />
+                    <span className="slider round labels"></span>
+                </label>
+
+                {/* Dark mode */}
+                <div className="grid-item-settings bg-color-white">
+                    <h2 className="bg-color-white">Dark mode</h2>
+                    <h3 className="bg-color-white">xxx</h3>
+                </div>
+
+                <label className="switch grid-item-settings bg-color-white">
+                    <input type="checkbox" />
+                    <span className="slider round labels"></span>
+                </label>
 
             </div>
 
-
-            <div class="hjem-bg wrapper-1">
-                <div class="grid-container-2 bg-white wrapper-2">
-
-
-                    {/* Sprog */}
-                    <div class="grid-item">
-                        <h2>Sprog</h2>
-                        <h3>Dansk / Engelsk</h3>
-                    </div>
-
-                    <label class="switch grid-item">
-                        <input type="checkbox" />
-                        <span class="slider round labels"></span>
-                    </label>
-
-                    {/* Applikationlyde */}
-                    <div class="grid-item">
-                        <h2>Applikationlyde</h2>
-                        <h3>xxx</h3>
-                    </div>
-
-                    <label class="switch grid-item">
-                        <input type="checkbox" />
-                        <span class="slider round labels"></span>
-                    </label>
-
-                    {/* E-mail-kvittering */}
-                    <div class="grid-item">
-                        <h2>E-mail-kvittering</h2>
-                        <h3>xxx</h3>
-                    </div>
-
-                    <label class="switch grid-item">
-                        <input type="checkbox" />
-                        <span class="slider round labels"></span>
-                    </label>
-
-                    {/* Dark mode */}
-                    <div class="grid-item">
-                        <h2>Dark mode</h2>
-                        <h3>xxx</h3>
-                    </div>
-                    <label class="switch grid-item">
-                        <input type="checkbox" />
-                        <span class="slider round labels"></span>
-                    </label>
+            {/* Hjem knap */}
+            <HjemKnap />
 
 
-                </div>
-                {/* Hjem knap */}
-                <button class="hjem-knap center">Hjem</button>
-
-            </div>
 
 
-            {/* copy right */}
-            <p class="center">copyright © Bookin</p>
+
+
         </>
     )
 }
 
 
 
-export default settings;

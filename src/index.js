@@ -1,32 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import Settings from './Settings';
 import reportWebVitals from './reportWebVitals';
-
-
-function Display() {
-  const [display, setDisplay] = useState('app');
-
-  return (
-  
-
-{display === 'app' && <App/>}
-{display === 'settings' && <Settings/>}
-
-
-  )
-
-
-  }
-    
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-
-<Display display={'app'} />
+<BrowserRouter>
+<App/>
+</BrowserRouter>
 
 
 
