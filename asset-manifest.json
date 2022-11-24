@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-1/static/css/main.dea062bf.css",
-    "main.js": "/react-1/static/js/main.bb0a9bb1.js",
+    "main.js": "/react-1/static/js/main.5343ff00.js",
     "static/js/787.9c4083a9.chunk.js": "/react-1/static/js/787.9c4083a9.chunk.js",
     "static/media/avatar.jpg": "/react-1/static/media/avatar.fc0296b15f525caff81f.jpg",
     "static/media/size.jpg": "/react-1/static/media/size.caac6a297f490067c9c4.jpg",
@@ -13,11 +13,11 @@
     "static/media/ny-booking.PNG": "/react-1/static/media/ny-booking.a8ce832f29e3ba1f87b8.PNG",
     "index.html": "/react-1/index.html",
     "main.dea062bf.css.map": "/react-1/static/css/main.dea062bf.css.map",
-    "main.bb0a9bb1.js.map": "/react-1/static/js/main.bb0a9bb1.js.map",
+    "main.5343ff00.js.map": "/react-1/static/js/main.5343ff00.js.map",
     "787.9c4083a9.chunk.js.map": "/react-1/static/js/787.9c4083a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea062bf.css",
-    "static/js/main.bb0a9bb1.js"
+    "static/js/main.5343ff00.js"
   ]
 }
