@@ -15,7 +15,7 @@ import { Spinner } from "./Spinner"
 
 
 export function Booking() {
-    console.trace();
+    console.trace(Booking);
     console.log("kørerBooking")
     const [rooms, setRooms] = useState([]);
     const roomsColRef = collection(db, "lokaler")
