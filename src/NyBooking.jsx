@@ -43,17 +43,16 @@ export function NyBooking() {
   // const handleTime = (e) => {
   //   setTime(e.target.value);
   // };
-  const refreshPage = ()=>{
-    window.location.reload();
- }
+  
 
 
- var handleSubmit = async (e) => {
-
+ const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("You Clicked!");
     console.log("test6")
-
+    const refreshPage = ()=>{
+      window.location.reload();
+   }
     
 
     const data = {
@@ -91,18 +90,19 @@ export function NyBooking() {
 
 
     if (docSnap.exists()) {
-      alert("Denne dato er allerede booked")
-  // console.log(findDato);
-    // console.log(dbRef);
+      alert("Denne dato er allerede booked");
     console.log("testaaaa")
     } else {
-      console.log("dbRef2")
       await setDoc(dataRef, data)
       console.log("test4")
+      alert("Den blev booked")
+      refreshPage()
+      console.log("testyes")
       .then(() => {
-        console.log(dataRef.id);
+        console.log(dataRef.id)
         console.log("test3")
-        refreshPage();
+       
+        
       })
       .catch(error => {
         console.log(error);
@@ -121,9 +121,10 @@ export function NyBooking() {
       //     console.log(error);
       //   })
     }
+    refreshPage();
   };
 
-
+ 
 
   // kalender tid value 
   
@@ -163,7 +164,7 @@ export function NyBooking() {
     </div>
     
     <Link className="bg-color-white pos-fix-2" to="/NyBooking">
-    <button className="booking-knap" onClick={handleSubmit}>Book</button>
+    <button className="booking-knap" onClick={handleSubmit} >Book</button>
     </Link>
 
     <HjemKnap />
