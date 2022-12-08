@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/react-1/static/css/main.dea062bf.css",
-    "main.js": "/react-1/static/js/main.5343ff00.js",
+    "main.css": "/react-1/static/css/main.b55687eb.css",
+    "main.js": "/react-1/static/js/main.2bdc3980.js",
     "static/js/787.9c4083a9.chunk.js": "/react-1/static/js/787.9c4083a9.chunk.js",
     "static/media/avatar.jpg": "/react-1/static/media/avatar.fc0296b15f525caff81f.jpg",
     "static/media/size.jpg": "/react-1/static/media/size.caac6a297f490067c9c4.jpg",
     "static/media/furniture.jpg": "/react-1/static/media/furniture.b3b8373cb1a45b87ffac.jpg",
     "static/media/projector.jpg": "/react-1/static/media/projector.76110a70de91fa420cf4.jpg",
+    "static/media/click.mp3": "/react-1/static/media/click.9bb4883dfd672caacc64.mp3",
+    "static/media/bookinglogo.svg": "/react-1/static/media/bookinglogo.424f63ccdb280ce7efa14a1a1864f261.svg",
     "static/media/house.jpg": "/react-1/static/media/house.98e6cc06db7985a54726.jpg",
-    "static/media/dine-indstillinger.PNG": "/react-1/static/media/dine-indstillinger.779a31ca5c3ef6e776ac.PNG",
-    "static/media/aktuelle-bookinger.PNG": "/react-1/static/media/aktuelle-bookinger.c979001fbb48ee31218e.PNG",
-    "static/media/ny-booking.PNG": "/react-1/static/media/ny-booking.a8ce832f29e3ba1f87b8.PNG",
+    "static/media/orangetab.svg": "/react-1/static/media/orangetab.15d68a6b60e909b4e83234e30b4ae331.svg",
+    "static/media/gratab.svg": "/react-1/static/media/gratab.952c99bfe91a1ff640d085e37b46c2ea.svg",
+    "static/media/blatab.svg": "/react-1/static/media/blatab.6a7e9c5f73cac3bd30fe9560dd706a07.svg",
     "index.html": "/react-1/index.html",
-    "main.dea062bf.css.map": "/react-1/static/css/main.dea062bf.css.map",
-    "main.5343ff00.js.map": "/react-1/static/js/main.5343ff00.js.map",
+    "main.b55687eb.css.map": "/react-1/static/css/main.b55687eb.css.map",
+    "main.2bdc3980.js.map": "/react-1/static/js/main.2bdc3980.js.map",
     "787.9c4083a9.chunk.js.map": "/react-1/static/js/787.9c4083a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea062bf.css",
-    "static/js/main.5343ff00.js"
+    "static/css/main.b55687eb.css",
+    "static/js/main.2bdc3980.js"
   ]
 }
